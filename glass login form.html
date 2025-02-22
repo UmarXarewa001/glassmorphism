@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Login Form</title>
+    <link rel="stylesheet" href="glass login form.css">
+    <script src="https://cdn.userfront.com/core.js"></script>
+</head>
+<body>
+    <Section>
+        <Div Class="Colour"></Div>
+        <Div Class="Colour"></Div>
+        <Div Class="Colour"></Div>
+        <Div Class="Box">
+            <Div Class="Square" Style="--I: 0"></Div>
+            <Div Class="Square" Style="--I: 1"></Div>
+            <Div Class="Square" Style="--I: 2"></Div>
+            <Div Class="Square" Style="--I: 3"></Div>
+            <Div Class="Square" Style="--I: 4"></Div>
+            <Div Class="Container">
+                <Div Class="Form">
+                    <H2>Login</H2>
+                    <Form>
+                        <Div Class="Input__box">
+                            <Input Type="Text" Placeholder="Username" required/>
+                        </Div>
+                        <Div Class="Input__box">
+                            <Input Type="Password" Placeholder="Password" required/>
+                        </Div>
+                        <Div Class="Input__box">
+                            
+                            <button onclick="location.href='./toggle.html'">login </button>                            
+                        </Div>
+                        <P Class="Forget">
+                            Forgot Password? <A Href="reset password.js">Click Here</A>
+                        </P>
+                        <P Class="Forget">
+                            Don't Have An Account? <A Href="Sign Up.html">Sign Up</A>
+                        </P>
+                    </Form>
+                </Div>
+            </Div>
+        </Div>
+    </Section>
+    <form id="password-reset-form">
+        <div id="alert"></div>
+      
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      
+        <label for="password-verify">Re-type password</label>
+        <input type="password" id="password-verify" />
+      
+        <button type="submit">Reset password</button>
+      </form>
+</body>
+</html>
